@@ -1,0 +1,27 @@
+{
+  "name": "scraper-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.5",
+    "hbs": "^4.1.1",
+    "puppeteer": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonstH/ScraperHub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KonstH/ScraperHub/issues"
+  },
+  "homepage": "https://github.com/KonstH/ScraperHub#readme"
+}
