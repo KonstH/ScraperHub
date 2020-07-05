@@ -1,0 +1,17 @@
+<section class="youtube mt-5">
+  <h1 class="youtube--title">Youtube Trending List</h1>
+  <div class="youtube--content mt-5">
+    <div class="youtube--trending-container">
+    {{#each videos}}
+      <div class="card w-25 mb-3">
+        <h1>{{this.key}}</h1>
+        <img src="{{this.img}}" class="card-img-top" alt="trending video thumbnail">
+        <div class="card-body">
+          <h6 class="card-title">{{this.title}}</h6>
+          <a href="{{this.src}}" class="btn btn-primary">Watch the video</a>
+        </div>
+      </div>
+    {{/each}} 
+    </div>
+  </div>
+</section>
