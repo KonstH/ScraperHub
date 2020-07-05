@@ -4,8 +4,8 @@ const path = require('path');
 const app = express();
 
 // Handlebars setup
-app.engine('handlebars', exphbs({ defaultLayout: 'landing'}));
-app.set('view engine', 'handlebars');
+app.engine('hbs', exphbs({ defaultLayout: 'landing', extname: '.hbs'}));
+app.set('view engine', 'hbs');
 
 // Set static folder for styles and assets
 app.use(express.static(path.join(__dirname, 'public')));
